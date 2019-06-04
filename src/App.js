@@ -57,9 +57,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      text: "cipher text",
-      ciphertext: "my cipher text",
-      plaintext: "my plain text"
+      ciphertext: "cipher",
+      plaintext: "I love & only love the fairer sex"
     };
   }
   onChangeCipher(event) {
